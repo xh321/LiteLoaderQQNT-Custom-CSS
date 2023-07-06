@@ -1,0 +1,19 @@
+{
+    "manifest_version": 1,
+    "type": "theme",
+    "name": "自定义 CSS 样式",
+    "slug": "custom_css",
+    "description": "用来自定义 CSS 样式",
+    "version": "0.1.0",
+    "author": [
+        {
+            "name": "XiaoHe321",
+            "link": "https://github.com/xh321"
+        }
+    ],
+    "injects": {
+        "renderer": "./renderer.js",
+        "main": "./main.js",
+        "preload": "./preload.js"
+    }
+}
