@@ -1,6 +1,9 @@
 # LiteLoaderQQNT - custom-css
 
 LiteLoaderQQNT插件，用于加载任意CSS（会应用到所有页面，所以CSS请尽可能针对性设计）。
+
+本插件修改自[LiteLoaderQQNT-Test-Theme](https://github.com/mo-jinran/test-theme)。
+
 使用前需要安装[LiteLoaderQQNT](https://github.com/mo-jinran/LiteLoaderQQNT)，并在QQNT新版上使用。
 
 ## 使用方法
