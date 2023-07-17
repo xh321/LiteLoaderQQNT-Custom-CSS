@@ -20,7 +20,7 @@ function updateStyle(webContents) {
         if (err) {
             return;
         }
-        webContents.send("betterQQNT.custom_css.updateStyle", data);
+        webContents.send("LiteLoader.custom_css.updateStyle", data);
     });
 }
 
@@ -37,7 +37,7 @@ function watchCSSChange(webContents) {
 }
 
 function onLoad(plugin) {
-    ipcMain.on("betterQQNT.custom_css.rendererReady", (event, message) => {
+    ipcMain.on("LiteLoader.custom_css.rendererReady", (event, message) => {
         const window = BrowserWindow.fromWebContents(event.sender);
         updateStyle(window.webContents);
     });
