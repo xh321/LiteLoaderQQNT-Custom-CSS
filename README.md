@@ -1,6 +1,6 @@
 # LiteLoaderQQNT - custom-css
 
-LiteLoaderQQNT插件，用于加载任意CSS（会应用到所有页面，所以CSS请尽可能针对性设计）。
+LiteLoaderQQNT主题，用于加载任意CSS（会应用到所有页面，所以CSS请尽可能针对性设计）。
 
 本插件修改自[LiteLoaderQQNT-Test-Theme](https://github.com/mo-jinran/test-theme)。
 
@@ -10,7 +10,7 @@ LiteLoaderQQNT插件，用于加载任意CSS（会应用到所有页面，所以
 
 clone或下载zip文件解压，保留文件夹结构（文件夹名称为`插件名`，内容为github上的内容），将文件夹移动至`LiteLoaderQQNT数据目录/plugins/`下面，重启QQNT即可。
 
-启用插件后，对style.css的任何修改，保存后都会立刻生效。
+启用主题后，对style.css的任何修改，保存后都会立刻生效。
 
 **自带的CSS是对自己的发言文字修改为红色，请自行修改CSS文件。**
 
