@@ -1,16 +1,22 @@
 {
-    "manifest_version": 1,
+    "manifest_version": 2,
     "type": "theme",
     "name": "自定义 CSS 样式",
     "slug": "custom_css",
     "description": "用来自定义 CSS 样式",
     "version": "0.1.0",
+    "thumbnail": "./icon.png",
     "author": [
         {
             "name": "XiaoHe321",
             "link": "https://github.com/xh321"
         }
     ],
+    "repository": {
+        "repo": "xh321/LiteLoaderQQNT-Custom-CSS",
+        "branch": "master"
+    },
+    "platform": ["win32", "darwin", "linux"],
     "injects": {
         "renderer": "./renderer.js",
         "main": "./main.js",
