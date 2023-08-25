@@ -8,7 +8,9 @@ LiteLoaderQQNT主题，用于加载任意CSS（会应用到所有页面，所以
 
 ## 使用方法
 
-clone或下载zip文件解压，保留文件夹结构（文件夹名称为`插件名`，内容为github上的内容），将文件夹移动至`LiteLoaderQQNT数据目录/plugins/`下面，重启QQNT即可。
+建议从`LiteLoaderQQNT`应用商店中直接下载安装，方便快捷。
+
+也可以clone或下载zip文件解压，保留文件夹结构（文件夹名称为`插件名`，内容为github上的内容），将文件夹移动至`LiteLoaderQQNT数据目录/plugins/`下面，重启QQNT即可。
 
 启用主题后，对style.css的任何修改，保存后都会立刻生效。
 
