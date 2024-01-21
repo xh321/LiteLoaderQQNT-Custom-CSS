@@ -36,18 +36,19 @@ function watchCSSChange(webContents) {
     );
 }
 
-function onLoad(plugin) {
+onLoad();
+
+function onLoad() {
     ipcMain.on("LiteLoader.custom_css.rendererReady", (event, message) => {
         const window = BrowserWindow.fromWebContents(event.sender);
         updateStyle(window.webContents);
     });
 }
 
-function onBrowserWindowCreated(window, plugin) {
+function onBrowserWindowCreated(window) {
     watchCSSChange(window.webContents);
 }
 
 module.exports = {
-    onLoad,
     onBrowserWindowCreated
 };

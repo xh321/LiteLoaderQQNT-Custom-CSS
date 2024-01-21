@@ -1,4 +1,4 @@
-export function onLoad() {
+function onLoad() {
     const element = document.createElement("style");
     document.head.appendChild(element);
 
@@ -8,3 +8,4 @@ export function onLoad() {
 
     custom_css.rendererReady();
 }
+onLoad();
